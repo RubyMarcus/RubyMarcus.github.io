@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flags">
+        <ul class="flags">
+         <li id="Sweden"><a href="#" onclick="setLanguage('se')"><img src="http://cdn2.iconfinder.com/data/icons/flags/flags/32/Sweden.png"/> </a></li>
+         <li id="England"><a href="#" onclick="setLanguage('en')"><img src="http://cdn2.iconfinder.com/data/icons/flags/flags/32/England.png" /></a></li>
+         </ul>
+    </div>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a id="abouttext" href="#about">About</a>
+            </li>
+            <li>
+                <a id="experiencetext" href="#experience">Experience</a>
+            </li>
+            <li>
+                <a id="educationtext" href="#education">Education</a>
+            </li>
+            <li>
+                <a id="projectstext" href="#projects">Projects</a>
+            </li>
+            <li>
+                <a id="skillstext" href="#skills">Skills</a>
+            </li>
+            <li>
+                <a id="contacttext" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Marcus Lundgren</h1>
+            <h2 id="professiontext">Programmer</h2>
+            <a href="/Users/marcuslundgren/Downloads/devportfolio-master/resume.pdf" download="resume.pdf" class="btn-rounded-white" id="downloadtext">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay">
+
+        </div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading" id="aboutmetext">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p id="aboutmeparagraphtext">
+                    A burning interest in technology has always been within me. Pick apart, build up and trouble-free, and I think it's very exciting. My goal is to develop applications within IOS and Android to improve today's experiences, which can be within healthcare, the school and all other areas where technology can be introduced.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading" id="experiencetextsub">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="2017 - 2018">
+                <h3 id="experiencetitlefirsttext">Emergency room, Helsingborg</h3>
+                <h4 id="experiencesubtitlefirsttext">Service Employee - Fulltime</h4>
+                <p id="experienceparagraphfirsttext">
+                As a service worker in the healthcare sector, one helps with what needs to be done on a care facility (such as a hospital or health center): cleans, cleans bunks, replenishes consumables, helps with simpler administrative tasks, shows patients and / or relatives the right treatment rooms as well as assisting with information and giving some security, support and comfort to patients.
+                </p>
+            </div>
+
+            <div data-date="2017 - 2018">
+                <h3 id="experiencetitlesecondtext">Stora Blå</h3>
+                <h4 id="experiencesubtitlesecondtext">Event Leader - Project Employed</h4>
+                <p id="experienceparagraphsecondtext">
+                Event leaders at Stora Blå consisted of leading a group, which could be a company, bachelor party or bachelor party, through a certain activity. In most of all projects, it was important to feel comfortable talking to a group.
+                </p>
+            </div>
+
+            <div data-date="2014 – 2017">
+                <h3 id="experiencetitlethirdtext">I’m-event</h3>
+                <h4 id="experiencesubtitlethirdtext">Event Leader - Project Employed</h4>
+                <p id="experienceparagraphthirdtext">   
+                Being an event leader at Im-event consists of a lot of different tasks, including planning and execution of larger and smaller events. During the working day of an event, one is expected to be able to respond to people in a professional manner, handle various problems that arise with personnel and equipment. Being calm and harmonious is an important skill when handling many balls simultaneously.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+
+    <div id="education">
+        <h2 class="heading" id="educationtextsub">Education</h2>
+        <div class="education-block">
+            <h3 id="educationtitlefirst">Malmö Polytechnic</h3>
+            <span id="educationdatetext" class="education-date">Jaunary 2018 - *</span>
+            <h4 id="educationsubtitlefirsttext">Advanced Programming for Android and Iphone</h4>
+            <p id="educationparagraphfirsttext">       
+            The program consists of advanced programming for iOS, watchOS, tvOS and Android. Mobile test for iOS and Android. Internet of Things. Commercialization, monetization, IM and merchandising. Practical application development.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3 id="educationtitlesecondtext">Sound & Visual School</h3>
+            <span class="education-date">2014 - 2016</span>
+            <h4 id="educationsubtitlesecondtext">Technology program, Design & Product development, Specialization: Game development</h4>
+        </div>
+
+        <div class="education-block">
+            <h3>Stratford High School</h3>
+            <span class="education-date">2013 - 2014</span>
+            <h4>Houston TX USA - Junior class</h4>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading" id="projecttextsub">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/habit-reminder-icon.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Habit Reminder</h3>
+                        <p>
+                            With Habit Reminder you can easily list your daily habits that you want to complete. This app was made for Android.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->        
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/iconscaled.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Gym Monitor</h3>
+                        <p>
+                            The Gym Monitor is the perfect tool for building workouts, executing workouts and saving daily morning body weight. This app was made for IOS.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/mytivityicon.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>MyTivity</h3>
+                        <p>
+                            With this app you can orginaize events, activities and emerge new friendships. Join us, create an event and smile! This app was made for Android.
+                        </p>
+                        <a href="https://play.google.com/store/apps/details?id=com.apia22018.sportactivities&hl=sv">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading" id="skillssubtext">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Swift</li>
+            <li>Kotlin</li>
+            <li>Git</li>
+            <li>Firebase</li>
+            <li>Parse</li>
+            <li>Sketch</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2 id="getintouchtext">Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/Marcus.ruby.lundgren@icloud.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input id="emailtext" type="email" name="_replyto" placeholder="Your email" required>
+                <textarea id="messagetext" name="message" placeholder="Message" required></textarea>
+                <button id="sendtext" type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2019 Marcus Lundgren
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/RubyMarcus" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/users/11426875/rubymarcus?tab=profile" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/marcus-lundgren-b6805b186/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/marcus.lundgren.90?ref=bookmarks" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <script>
+    const langs = {
+         en: { 
+            "about": "About",
+            "experience": "Experience", 
+            "education": "Education",
+            "projects": "Projects",
+            "skills": "Skills",
+            "contact": "Contact",
+
+            "profession": "Programmer",
+            "download": "Download Resume",
+
+            "aboutme": "About Me",
+            "aboutmeparagraph" : "A burning interest in technology has always been within me. Pick apart, build up and trouble-free, and I think it's very exciting. My goal is to develop applications within IOS and Android to improve today's experiences, which can be within healthcare, the school and all other areas where technology can be introduced.",
+
+            "experiencetitlefirst": "Emergency room, Helsingborg",
+            "experiencesubtitlefirst" : "Service Employee - Full-time Employment",
+            "experienceparagraphfirst": "As a service worker in the healthcare sector, one helps with what needs to be done on a care facility (such as a hospital or health center): cleans, cleans bunks, replenishes consumables, helps with simpler administrative tasks, shows patients and / or relatives the right treatment rooms as well as assisting with information and giving some security, support and comfort to patients.",
+
+            "experiencetitlesecond": "Stora Blå",
+            "experiencesubtitlesecond": "Event Leader - Project Employed",
+            "experienceparagraphsecond": "Event leaders at Stora Blå consisted of leading a group, which could be a company, bachelor party or bachelor party, through a certain activity. In most of all projects, it was important to feel comfortable talking to a group.",
+
+            "experiencetitlethird": "I´m Event",
+            "experiencesubtitlethird": "Event Leader - Project Employed",
+            "experienceparagraphthird": "Being an event leader at Im-event consists of a lot of different tasks, including planning and execution of larger and smaller events. During the working day of an event, one is expected to be able to respond to people in a professional manner, handle various problems that arise with personnel and equipment. Being calm and harmonious is an important skill when handling many balls simultaneously.",
+
+            "educationdate": "Jaunary 2018 - *",
+            "educationtitlefirst": "Malmö Polytechnic",
+            "educationsubtitlefirst": "Advanced programming for Android and Iphone",
+            "educationparagraphfirst": "The program consists of advanced programming for iOS, watchOS, tvOS and Android. Mobile test for iOS and Android. Internet of Things. Commercialization, monetization, IM and merchandising. Practical application development.",
+
+            "educationtitlesecond": "Sound & Visual School",
+            "educationsubtitlesecond": "Technology program, Design & Product development, Specialization: Game development",
+
+            "getintouch": "Get in Touch",
+            "email": "Your email",
+            "message": "Message",
+            "send": "Send"
+         },
+        se:{ 
+            "about": "Om",
+            "experience": "Erfarenhet", 
+            "education": "Utbildning",
+            "projects": "Projekt",
+            "skills": "Kompetens",
+            "contact": "Kontakt",
+
+            "profession": "Programmerare",
+            "download": "Ladda ner CV",
+
+            "aboutme": "Om Mig",
+            "aboutmeparagraph" : "Ett brinnande intresse för teknik har alltid funnits hos mig. Plocka isär, bygga upp och problemlösa står mig närma och jag tycker det är väldigt spännande. Min målriktning är att utveckla applikationer inom IOS och Android för att förbättra dagens upplevelser, vilket kan vara inom vården, skolan och alla andra områden där teknik kan införas.",
+
+            "experiencetitlefirst": "Akuten, Helsingborg",
+            "experiencesubtitlefirst": "Servicemedarbetare - Heltidsanställning",
+            "experienceparagraphfirst": "Som servicemedarbetare inom sjukvården hjälper man till med det som behöver göras på en vårdinrättning (som t.ex sjukhus eller vårdcentral): städar, tvättar britsar, fyller på med förbrukningsmaterial, hjälper till med enklare administrativa uppgifter, visar patienter och/eller anhöriga till rätt behandlingsrum samt bistår med information och ger viss trygghet, stöd och tröst till patienter.",
+
+            "experiencetitlesecond": "Stora Blå",
+            "experiencesubtitlesecond": "Eventledare - Projektanställning",
+            "experienceparagraphsecond": "Att vara eventledare på Im-event består av en massa olika uppgifter, bland annat planering och utförande av större och mindre event. Under arbetsdagen på ett event förväntas man kunna bemöta människor på ett proffsigt sätt, hantera diverse problem som uppstår med personal och utrustning. Att vara lugn och harmonisk är en viktig kompetens när man hanterar många bollar samtidigt.",
+
+            "experiencetitlethird": "I´m Event",
+            "experiencesubtitlethird": "Eventledare - Projektanställning",
+            "experienceparagraphthird": "Att vara eventledare på Im-event består av en massa olika uppgifter, bland annat planering och utförande av större och mindre event. Under arbetsdagen på ett event förväntas man kunna bemöta människor på ett proffsigt sätt, hantera diverse problem som uppstår med personal och utrustning. Att vara lugn och harmonisk är en viktig kompetens när man hanterar många bollar samtidigt.",
+
+            "educationdate": "Jaunari 2018 - *",
+            "educationtitlefirst": "Malmö Yrkeshögskola",
+            "educationsubtitlefirst": "Avancerad programmering för Android och Iphone",
+            "educationparagraphfirst": "Utbildningen består av avancerad programmering för iOS, watchOS, tvOS och Android. Mobiltest för iOS och Android. Internet of Things. Kommersialisering, monetarisering, IM och merchandising. Praktisk applikationsutveckling.",
+
+            "educationtitlesecond": "Ljud och Bildskolan",
+            "educationsubtitlesecond": "Teknikprogrammet, Design & Produktutveckling, Specialisering: Spelutveckling",
+
+            "getintouch": "Komma i Kontakt",
+            "email": "Din e-post",
+            "message": "Meddelande",
+            "send": "Skicka"
+        }       
+    }
+
+    var language; 
+
+    function changeLocal(attribute) {
+        return langs[localStorage.getItem('language')][attribute]
+    }
+    function getLanguage() {
+        (localStorage.getItem('language') == null) ? setLanguage('en') : false;
+        language = langs[localStorage.getItem('language')]
+        return false
+    }
+
+    function setLanguage(lang) {
+        localStorage.setItem('language', lang);
+        $('#abouttext').text(changeLocal("about"))
+        $('#experiencetext').text(changeLocal("experience"))
+        $('#educationtext').text(changeLocal("education"))
+        $('#projectstext').text(changeLocal("projects"))
+        $('#skillstext').text(changeLocal("skills"))        
+        $('#contacttext').text(changeLocal("contact"))
+
+        $('#professiontext').text(changeLocal("profession"))
+        $('#downloadtext').text(changeLocal("download"))
+
+        $('#aboutmetext').text(changeLocal("aboutme"))
+        $('#aboutmeparagraphtext').text(changeLocal("aboutmeparagraph"))
+
+        $('#experiencetextsub').text(changeLocal("experience"))
+        $('#experiencetitlefirsttext').text(changeLocal("experiencetitlefirst"))
+        $('#experiencesubtitlefirsttext').text(changeLocal("experiencesubtitlefirst"))
+        $('#experienceparagraphfirsttext').text(changeLocal("experienceparagraphfirst"))
+
+        $('#experiencetitlesecondtext').text(changeLocal("experiencetitlesecond"))
+        $('#experiencesubtitlesecondtext').text(changeLocal("experiencesubtitlesecond"))
+        $('#experienceparagraphsecondtext').text(changeLocal("experienceparagraphsecond"))
+
+        $('#experiencetitlethirdtext').text(changeLocal("experiencetitlethird"))
+        $('#experiencesubtitlethirdtext').text(changeLocal("experiencesubtitlethird"))
+        $('#experienceparagraphthirdtext').text(changeLocal("experienceparagraphthird"))
+
+        $('#educationtextsub').text(changeLocal("education"))
+        $('#educationdatetext').text(changeLocal("educationdate"))
+        $('#educationsubtitlefirsttext').text(changeLocal("educationsubtitlefirst"))
+        $('#educationparagraphfirsttext').text(changeLocal("educationparagraphfirst"))
+
+        $('#educationtitlesecondtext').text(changeLocal("educationtitlesecond"))
+        $('#educationsubtitlesecondtext').text(changeLocal("educationsubtitlesecond"))
+
+        $('#projecttextsub').text(changeLocal("projects")) 
+        $('#skillssubtext').text(changeLocal("skills"))
+
+        $('#getintouchtext').text(changeLocal("getintouch"))
+        $('#emailtext')[0].placeholder = changeLocal("email")
+        $('#messagetext')[0].placeholder = changeLocal("message")
+        $('#sendtext').text(changeLocal("send"))
+    }
+
+    $(document).ready(function() {
+        $("#Sweden").click(() => getLanguage())
+        $("#England").click(() => getLanguage())
+    })
+ 
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+
+    $(document).ready(function(){
+        getLanguage()
+    });
+
+    </script>
+</body>
+
+</html>
