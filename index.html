@@ -159,10 +159,10 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>bDay Planner</h3>
-                        <p>
+                        <p id="firstProjectParagraphText">
                             The app helps you keep track of your loved ones birthdays and lets you organize gift ideas and birthday surprises during the year so you don't forget them! This app was made for IOS.
                         </p>
-                        <a href="https://github.com/RubyMarcus/bDay-planner">View Project</a>
+                        <a href="https://github.com/RubyMarcus/bDay-planner" id="viewProjectTextFirst">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -178,7 +178,7 @@
                         <p>
                             The Gym Monitor is the perfect tool for building workouts, executing workouts and saving daily morning body weight. This app was made for IOS.
                         </p>
-                        <a href="https://github.com/RubyMarcus/GymMonitor">View Project</a>
+                        <a href="https://github.com/RubyMarcus/GymMonitor" id="viewProjectTextSecond">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -194,7 +194,7 @@
                         <p>
                             With Habit Reminder you can easily list your daily habits that you want to complete. This app was made for Android.
                         </p>
-                        <a href="https://github.com/RubyMarcus/HabitReminder">View Project</a>
+                        <a href="https://github.com/RubyMarcus/HabitReminder" id="viewProjectTextThird">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -210,7 +210,7 @@
                         <p>
                             With this app you can orginaize events, activities and emerge new friendships. Join us, create an event and smile! This app was made for Android.
                         </p>
-                        <a href="https://github.com/RubyMarcus/MyTivity">View Project</a>
+                        <a href="https://github.com/RubyMarcus/MyTivity" id="viewProjectTextForth">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -322,6 +322,13 @@
             "educationtitlesecond": "Sound & Visual School",
             "educationsubtitlesecond": "Technology program, Design & Product development, Specialization: Game development",
 
+            "firstProjectParagraph" : "The app helps you keep track of your loved ones birthdays and lets you organize gift ideas and birthday surprises during the year so you don't forget them! This app was made for IOS."
+
+            "viewProjectFirst" : "View Project"
+            "viewProjectSecond" : "View Project"
+            "viewProjectThird" : "View Project"
+            "viewProjectForth" : "View Project"
+
             "getintouch": "Get in Touch",
             "email": "Your email",
             "message": "Message",
@@ -360,6 +367,13 @@
 
             "educationtitlesecond": "Ljud och Bildskolan",
             "educationsubtitlesecond": "Teknikprogrammet, Design & Produktutveckling, Specialisering: Spelutveckling",
+
+            "firstProjectParagraph" : "Den här appen hjälper dig alla hålla reda på dina nära och käras födelsedagar. I appen kan du organisera dina presenter så att du inte glömmer. Applikationen är gjord för IOS."
+
+            "viewProjectFirst" : "Visa Projekt"
+            "viewProjectSecond" : "Visa Projekt"
+            "viewProjectThird" : "Visa Projekt"
+            "viewProjectForth" : "Visa Projekt"
 
             "getintouch": "Komma i Kontakt",
             "email": "Din e-post",
@@ -414,6 +428,13 @@
 
         $('#educationtitlesecondtext').text(changeLocal("educationtitlesecond"))
         $('#educationsubtitlesecondtext').text(changeLocal("educationsubtitlesecond"))
+
+        $('#firstProjectParagraphText').text(changeLocal("firstProjectParagraph"))
+
+        $('#viewProjectTextFirst').text(changeLocal("viewProjectFirst"))
+        $('#viewProjectTextSecond').text(changeLocal("viewProjectSecond"))
+        $('#viewProjectTextThird').text(changeLocal("viewProjectThird"))
+        $('#viewProjectTextForth').text(changeLocal("viewProjectForth"))
 
         $('#projecttextsub').text(changeLocal("projects")) 
         $('#skillssubtext').text(changeLocal("skills"))
