@@ -123,7 +123,7 @@
     <div id="education">
         <h2 class="heading" id="educationtextsub">Education</h2>
         <div class="education-block">
-            <h3 id="educationtitlefirst">Malmö Polytechnic</h3>
+            <h3>Malmö Yrkeshögskola</h3>
             <span id="educationdatetext" class="education-date">Jaunary 2018 - *</span>
             <h4 id="educationsubtitlefirsttext">Advanced Programming for Android and Iphone</h4>
             <p id="educationparagraphfirsttext">       
@@ -133,7 +133,7 @@
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3 id="educationtitlesecondtext">Sound & Visual School</h3>
+            <h3>Ljud & Bildskolan</h3>
             <span class="education-date">2014 - 2016</span>
             <h4 id="educationsubtitlesecondtext">Technology program, Design & Product development, Specialization: Game development</h4>
         </div>
@@ -175,7 +175,7 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Gym Monitor</h3>
-                        <p>
+                        <p id="secondProjectParagraphText">
                             The Gym Monitor is the perfect tool for building workouts, executing workouts and saving daily morning body weight. This app was made for IOS.
                         </p>
                         <a href="https://github.com/RubyMarcus/GymMonitor" id="viewProjectTextSecond">View Project</a>
@@ -191,7 +191,7 @@
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Habit Reminder</h3>
-                        <p>
+                        <p >
                             With Habit Reminder you can easily list your daily habits that you want to complete. This app was made for Android.
                         </p>
                         <a href="https://github.com/RubyMarcus/HabitReminder" id="viewProjectTextThird">View Project</a>
@@ -315,19 +315,19 @@
             "experienceparagraphthird": "Being an event leader at Im-event consists of a lot of different tasks, including planning and execution of larger and smaller events. During the working day of an event, one is expected to be able to respond to people in a professional manner, handle various problems that arise with personnel and equipment. Being calm and harmonious is an important skill when handling many things simultaneously.",
 
             "educationdate": "Jaunary 2018 - *",
-            "educationtitlefirst": "Malmö Polytechnic",
             "educationsubtitlefirst": "Advanced programming for Android and Iphone",
             "educationparagraphfirst": "The program consists of advanced programming for iOS, watchOS, tvOS and Android. Mobile test for iOS and Android. Internet of Things. Commercialization, monetization, IM and merchandising. Practical application development.",
 
-            "educationtitlesecond": "Sound & Visual School",
             "educationsubtitlesecond": "Technology program, Design & Product development, Specialization: Game development",
 
-            "firstProjectParagraph" : "The app helps you keep track of your loved ones birthdays and lets you organize gift ideas and birthday surprises during the year so you don't forget them! This app was made for IOS."
+            "firstProjectParagraph" : "The app helps you keep track of your loved ones birthdays and lets you organize gift ideas and birthday surprises during the year so you don't forget them! This app was made for IOS.",
 
-            "viewProjectFirst" : "View Project"
-            "viewProjectSecond" : "View Project"
-            "viewProjectThird" : "View Project"
-            "viewProjectForth" : "View Project"
+            "secondProjectParaGraph" : "The Gym Monitor is the perfect tool for building workouts, executing workouts and saving daily morning body weight. This app was made for IOS.",
+
+            "viewProjectFirst" : "View Project",
+            "viewProjectSecond" : "View Project",
+            "viewProjectThird" : "View Project",
+            "viewProjectForth" : "View Project",
 
             "getintouch": "Get in Touch",
             "email": "Your email",
@@ -361,19 +361,20 @@
             "experienceparagraphthird": "Att vara eventledare på Im-event består av en massa olika uppgifter, bland annat planering och utförande av större och mindre event. Under arbetsdagen på ett event förväntas man kunna bemöta människor på ett proffsigt sätt, hantera diverse problem som uppstår med personal och utrustning. Att vara lugn och harmonisk är en viktig kompetens när man hanterar många bollar samtidigt.",
 
             "educationdate": "Jaunari 2018 - *",
-            "educationtitlefirst": "Malmö Yrkeshögskola",
             "educationsubtitlefirst": "Avancerad programmering för Android och Iphone",
             "educationparagraphfirst": "Utbildningen består av avancerad programmering för iOS, watchOS, tvOS och Android. Mobiltest för iOS och Android. Internet of Things. Kommersialisering, monetarisering, IM och merchandising. Praktisk applikationsutveckling.",
 
-            "educationtitlesecond": "Ljud och Bildskolan",
             "educationsubtitlesecond": "Teknikprogrammet, Design & Produktutveckling, Specialisering: Spelutveckling",
 
-            "firstProjectParagraph" : "Den här appen hjälper dig alla hålla reda på dina nära och käras födelsedagar. I appen kan du organisera dina presenter så att du inte glömmer. Applikationen är gjord för IOS."
+            "firstProjectParagraph" : "Appen hjälper dig att hålla reda på dina nära och käras födelsedagar. Låter dig också organisera presentidéer och födelsedagsöverraskningar under året så att du inte glömmer dem! Den här appen gjordes för IOS.",
 
-            "viewProjectFirst" : "Visa Projekt"
-            "viewProjectSecond" : "Visa Projekt"
-            "viewProjectThird" : "Visa Projekt"
-            "viewProjectForth" : "Visa Projekt"
+            "secondProjectParaGraph" : "Gym Monitor är det perfekta verktyget för att strukturera träningpass, utföra träningpass och spara daglig morgon kroppsvikt. Den här appen gjordes för IOS.",
+
+
+            "viewProjectFirst" : "Visa Projekt",
+            "viewProjectSecond" : "Visa Projekt",
+            "viewProjectThird" : "Visa Projekt",
+            "viewProjectForth" : "Visa Projekt",
 
             "getintouch": "Komma i Kontakt",
             "email": "Din e-post",
@@ -426,10 +427,10 @@
         $('#educationsubtitlefirsttext').text(changeLocal("educationsubtitlefirst"))
         $('#educationparagraphfirsttext').text(changeLocal("educationparagraphfirst"))
 
-        $('#educationtitlesecondtext').text(changeLocal("educationtitlesecond"))
         $('#educationsubtitlesecondtext').text(changeLocal("educationsubtitlesecond"))
 
         $('#firstProjectParagraphText').text(changeLocal("firstProjectParagraph"))
+        $('#secondProjectParagraphText').text(changeLocal("secondProjectParaGraph"))
 
         $('#viewProjectTextFirst').text(changeLocal("viewProjectFirst"))
         $('#viewProjectTextSecond').text(changeLocal("viewProjectSecond"))
